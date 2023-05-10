@@ -30,12 +30,12 @@ class Product {
 }
 
 final List<Product> products = [
-  Product('No.1', 'assets/produk/adidas.png', 'Adidas', 5400000.0),
-  Product('No.2', 'assets/produk/newbalance.png', 'New Balance', 6500000.0),
-  Product('No.3', 'assets/produk/vans.png', 'Vans', 3950000.0),
-  Product('No.4', 'assets/produk/convers.png', 'Convers', 8400000.0),
-  Product('No.5', 'assets/produk/puma.png', 'Puma', 4300000.0),
-  Product('No.6', 'assets/produk/nike.png', 'Nike', 5200000.0),
+  Product('No.1', 'assets/gbr/adidas.png', 'Adidas', 5400000.0),
+  Product('No.2', 'assets/gbr/newbalance.png', 'New Balance', 6500000.0),
+  Product('No.3', 'assets/gbr/vans.png', 'Vans', 3950000.0),
+  Product('No.4', 'assets/gbr/convers.png', 'Convers', 8400000.0),
+  Product('No.5', 'assets/gbr/puma.png', 'Puma', 4300000.0),
+  Product('No.6', 'assets/gbr/nike.png', 'Nike', 5200000.0),
 ];
 
 class ProductListScreen extends StatelessWidget {
@@ -65,7 +65,7 @@ class ProductListScreen extends StatelessWidget {
                         TextStyle(fontSize: 24.0, fontWeight: FontWeight.bold)),
                 SizedBox(width: 16.0),
                 CircleAvatar(
-                  backgroundImage: AssetImage('assets/images/crown-10716.png'),
+                  backgroundImage: AssetImage('assets/gbr/du22.jpg'),
                   radius: 24.0,
                 ),
               ],
